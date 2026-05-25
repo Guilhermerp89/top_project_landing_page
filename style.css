@@ -1,0 +1,99 @@
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.header {
+  
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+  padding: 12px;
+  margin: 0px;
+  
+}
+
+.left-links {
+  
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: Roboto, sans-serif;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.right-links {
+  
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: Roboto, sans-serif;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.content {
+  
+  
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+  padding: 12px;
+  margin: 0px;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer {
+  background-color: lightgrey;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+  padding: 12px;
+  margin: 0px;
+  
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: grey;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 6px;
+  background: #eee;
+  padding: 8px 16px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
